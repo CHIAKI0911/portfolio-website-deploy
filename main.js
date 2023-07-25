@@ -15,8 +15,8 @@ const scene =  new THREE.Scene();
 
 //③背景のテクスチャ(シーン以降に記述)
 const textureLoader = new THREE.TextureLoader();
-const bdTexture = textureLoader.load("bg/bg.JPG");
-scene.background = bdTexture;
+// const bdTexture = textureLoader.load("bg/bg.JPG");
+// scene.background = bdTexture;
 
 //④サイズ(アスペクト比)
 const sizes = {
@@ -36,6 +36,7 @@ const camera  = new THREE.PerspectiveCamera(
 //⑥レンダラー(webglrendererはcanvasの中に描画していく)
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas, //canvasのオブジェクトをcanvasという引数にぶち込む
+    alpha: true
 });
 renderer.setSize(sizes.width, sizes.height); //レンダラーのサイズ指定(ブラウザの画面いっぱい)
 renderer.setPixelRatio(window.devicePixelRatio);    //webglで備え付けられてる関数→モデルのpixelの最適化

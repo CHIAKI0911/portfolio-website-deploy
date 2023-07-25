@@ -9,6 +9,8 @@
 body {
   color: white;
   overflow-x: hidden;
+  background-image: url("bg/bg.jpg");
+  background-attachment: fixed;
 }
 
 
