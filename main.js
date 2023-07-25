@@ -15,7 +15,7 @@ const scene =  new THREE.Scene();
 
 //③背景のテクスチャ(シーン以降に記述)
 const textureLoader = new THREE.TextureLoader
-const bdTexture = textureLoader.load("bg/bg.jpg");
+const bdTexture = textureLoader.load("bg/bg.JPG");
 scene.background = bdTexture;
 
 //④サイズ(アスペクト比)
