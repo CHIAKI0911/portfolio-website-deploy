@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   background-image: url("bg/bg.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -55,6 +56,10 @@ a {
   transition: 0.5s;
 }
 
+#font0{
+  color: aqua;
+}
+
 p#font{
   font-size: 3vw;
 }
@@ -62,12 +67,14 @@ p#font{
 p#font1{
   margin-top: 20px;
   font-size: 2.4vw;
+  font-weight: 500;
 }
 
 p#font2{
   text-align: center;
   margin-top: 20px;
   font-size: 1.47vw;
+  font-weight: 500;
 }
 
 
@@ -81,11 +88,13 @@ p#font3{
   text-align: center;
   font-size: 4vw;
   margin-right: 70px;
+  color: aqua;
 }
 
 #font6{
   text-align: center;
   font-size: 4vw;
+  color: aqua;
 }
 
 .loading{
