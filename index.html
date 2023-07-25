@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3Dスクロール制御</title>
+  </head>
+  <body>
+
+   
+    <!--ローディング画面の作成-->
+    <div id="loading" class="loading" >
+      <div class="loadingText">LOADING...</div>
+    </div>
+
+    <canvas id="webgl"></canvas>
+
+    <main>
+
+      <h2>PortFolio</h2>
+      <section> 
+        <a href="https://www2.panasonic.biz/jp/dsr/index/zaitaku/">まずこちらを</a>
+
+        <p id="font1">このように3Dモデルを使ったサイトはユーザーに楽しさと詳細を伝えるのに相性が良い</p>
+        <p id="font2">なので今回はWEB上に3Dモデルを投影してそれをスクロールで簡単な操作するといったサイトを作りました</p>
+      </section>
+      
+      <section>
+        <p>使ったもの</p>
+        <p id="font3">HTML / CSS / JavaScript / WEBGL(Three.js)</p>
+        <p id="font3">GitHub / Vercel</p>
+        <p id="font3"><a href="https://github.com/CHIAKI0911/portfolio-website-deploy.git">ソースコードはこちら</a></p>
+      </section>
+      <dev>
+      </dev>
+
+      
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
