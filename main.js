@@ -48,7 +48,7 @@ renderer.setPixelRatio(window.devicePixelRatio);    //webglで備え付けられ
 const boxGeometry = new THREE.BoxGeometry(5,5,5,10);    //box(正方形)型の追加
 const boxMaterial = new THREE.MeshNormalMaterial();
 const box = new THREE.Mesh(boxGeometry,boxMaterial);
-box.position.set(0,0.5,-15);    //boxの座標をマイナス方向に持っていく
+box.position.set(0,0,-15);    //boxのz座標をマイナス方向に持っていく
 box.rotation.set(1,1,0);    //角度
 //座標の指定をしていないとboxとカメラの座標位置がかぶっているからオブジェクトが見えない→(webglにおけるｘ、ｙ、ｚ座標のつかみが必要)
 
